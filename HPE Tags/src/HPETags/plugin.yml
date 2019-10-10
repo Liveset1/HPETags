@@ -1,0 +1,17 @@
+name: HPETags
+author: Liveset1
+api: 3.9.5
+version: 1.0.0 
+main: HPETags\Main
+description: Tags  Plugin By HumanityPE!
+commands: 
+        tags:
+           description: Choose your Tag!
+           usage: /tags "<set> <nameoftag>"
+        tagui:
+          description: Choose and see your tags!
+ permissions: 
+       tags.command;
+          default: true
+       tagsui.command: 
+         default: true
